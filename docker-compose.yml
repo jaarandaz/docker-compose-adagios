@@ -15,3 +15,4 @@ adagios:
     - ./etc/nagios-plugins:/etc/nagios-plugins
     - ./etc/adagios:/etc/adagios
     - ./etc/pnp4nagios:/etc/pnp4nagios
+    - ./etc/apache2:/etc/apache2
