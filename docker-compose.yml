@@ -1,0 +1,9 @@
+adagiosdata:
+  image: jaarandaz/adagios-data
+
+phpnginx:
+  image: jaarandaz/adagios
+  volumes_from:
+    - adagiosdata
+  ports:
+    - "80:80"
