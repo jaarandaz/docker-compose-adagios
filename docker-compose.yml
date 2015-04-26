@@ -1,7 +1,7 @@
 adagiosdata:
   image: jaarandaz/adagios-data
 
-phpnginx:
+adagios:
   image: jaarandaz/adagios
   volumes_from:
     - adagiosdata
